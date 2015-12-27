@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "GOFViewController.h"
 #define Frame_Times  ([[UIScreen mainScreen] bounds].size.width/375.0)
-#define Num 3
+#define Num 9
 
 @interface ViewController ()<UIScrollViewDelegate>
 

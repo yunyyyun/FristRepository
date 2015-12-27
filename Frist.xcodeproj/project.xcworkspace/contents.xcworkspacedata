@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Frist.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

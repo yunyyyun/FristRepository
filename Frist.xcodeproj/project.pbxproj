@@ -309,6 +309,7 @@
 				516209351C26F6B6002F7023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

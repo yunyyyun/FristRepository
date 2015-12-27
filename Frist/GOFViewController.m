@@ -310,6 +310,58 @@
         _data[startPos+1] = [NSNumber numberWithBool:YES];
         //_data[startPos+2] = [NSNumber numberWithBool:YES];
     }
+    if(flag == 4)
+    {
+        for (int i=0; i<self.nSize*self.nSize; ++i)
+        {
+            self.data[i] = [NSNumber numberWithBool:YES];
+        }
+    }
+    if(flag == 5)
+    {
+        for (int i=0; i<self.nSize*self.nSize; ++i)
+        {
+            if(i%2 == 0){
+                self.data[i] = [NSNumber numberWithBool:YES];
+            }
+        }
+    }
+    if(flag == 6)
+    {
+        for (int i=0; i<self.nSize*self.nSize; ++i)
+        {
+            if(i%3 == 0){
+                self.data[i] = [NSNumber numberWithBool:YES];
+            }
+        }
+    }
+    if(flag == 7)
+    {
+        for (int i=0; i<self.nSize*self.nSize; ++i)
+        {
+            if(i%4 == 0){
+                self.data[i] = [NSNumber numberWithBool:YES];
+            }
+        }
+    }
+    if(flag == 8)
+    {
+        for (int i=0; i<self.nSize*self.nSize; ++i)
+        {
+            if(i%_nSize == i/_nSize){
+                self.data[i] = [NSNumber numberWithBool:YES];
+            }
+        }
+    }
+    if(flag == 9)
+    {
+        for (int i=0; i<self.nSize*self.nSize; ++i)
+        {
+            if(i%_nSize == i/_nSize || i%_nSize + i/_nSize == _nSize-1){
+                self.data[i] = [NSNumber numberWithBool:YES];
+            }
+        }
+    }
     for (int i=0; i<self.nSize*self.nSize; ++i)
     {
         id tmpBtn = [_gameView subviews][i];
