@@ -60,10 +60,10 @@ extension Mdata {
             let file : Any = NSHomeDirectory() as NSString
             var path:String!
             if type==2 {
-                path = (file as! NSString).appendingPathComponent("Documents/d/userInfo222.archive")
+                path = (file as! NSString).appendingPathComponent("Documents/userInfo222.archive")
             }
             else{
-                path = (file as! NSString).appendingPathComponent("Documents/d/userInfo333.archive")
+                path = (file as! NSString).appendingPathComponent("Documents/userInfo333.archive")
             }
             return path
         }
